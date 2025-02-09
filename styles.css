@@ -139,4 +139,8 @@ span {
     flex-wrap: wrap;
 }
 
+.tiny-text {
+    font-size: 10px;
+}
+
 
