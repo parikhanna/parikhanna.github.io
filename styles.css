@@ -139,8 +139,12 @@ span {
     flex-wrap: wrap;
 }
 
-.tiny-text {
-    font-size: 10px;
-}
+/* .tiny-text {
+    font-size: 50%;
+} */
 
+.credit {
+    display: flex;
+    justify-content: center;
+}
 
