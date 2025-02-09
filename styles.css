@@ -1,0 +1,142 @@
+body {
+    font-family: "IBM Plex Mono", serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5%;
+}
+
+.linkedin-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.github-logo {
+    width: 35px;
+    height: 30px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: blue
+}
+
+h1 {
+    font-size: 54px;
+}
+
+span {
+    background-color: #ffde59;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10% 18% 16% 18%;
+}
+
+.intro-text {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 100px;
+} 
+
+.bouncing-text {
+    animation: 1s infinite bounce;
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-20px); 
+  }
+}
+
+.hat-heading {
+    width: 150px;
+}
+
+.hats {
+    height: 80px;
+    width: 80px;
+}
+
+.hat-description {
+    font-size: 12px;
+}
+
+.hats-i-wear {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px 200px;
+    gap: 50px;
+}
+
+.hats-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subpage-heading {
+    /* margin-left: 100px; */
+    margin-left: 7%;
+}
+
+.project-heading {
+    color: #ffde59;
+}
+
+.project {
+    margin-left: 7%;
+    margin-right: 14%;
+}
+
+.projects-subpage {
+    margin-bottom: 100px;
+}
+
+.extra-curricular-photo {
+    width: 165px;
+    height: 331px;
+    margin: 0px;
+}
+
+.my-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 1%;
+    background-color: #ffde59;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.extracurricular-description {
+    margin: 0px;
+    width: 165px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
